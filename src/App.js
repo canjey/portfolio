@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Homepage from "./Components/Homepage";
+import Homepage from "./components/homepage";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
+import React  from 'react';
+
 
 const darkTheme = createTheme({
   palette: {
@@ -19,10 +20,12 @@ const darkTheme = createTheme({
 
 function App() {
   return (
+    <>
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <Homepage />
     </ThemeProvider>
+    </>
   );
 }
 
