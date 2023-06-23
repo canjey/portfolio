@@ -20,7 +20,7 @@ export default function AboutMe(){
                 </Typography>
                 <Typography sx={{marginTop:'30px'}}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </Typography>
                 <Button variant="contained" sx={{backgroundColor:'#F900D1', width:'150px', borderRadius:'20px', marginTop:'20%'}}>Hire Me</Button>

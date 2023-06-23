@@ -36,7 +36,7 @@ export default function MyServices() {
             }}
           >
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </Typography>
@@ -46,7 +46,7 @@ export default function MyServices() {
               <Typography>User Interface Design</Typography>
               <Typography>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industrys standard dummy
                 text ever since the 1500s,
               </Typography>
             </Grid>
@@ -57,7 +57,7 @@ export default function MyServices() {
               </Typography>
               <Typography>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industrys standard dummy
                 text ever since the 1500s,
               </Typography>
             </Grid>
@@ -66,7 +66,7 @@ export default function MyServices() {
               <Typography>Mobile Interface Design</Typography>
               <Typography>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industrys standard dummy
                 text ever since the 1500s,
               </Typography>
             </Grid>
