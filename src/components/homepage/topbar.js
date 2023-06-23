@@ -50,7 +50,7 @@ export default function Topbar() {
   return (
     <>
       <Grid container>
-        <Grid item lg={6} xl={1} md={5.5} sx={{display:{xs:'none', md:'inline', marginLeft:{xs:'10px'}}}}>
+        <Grid item lg={6} xl={6} md={5.5} sx={{display:{xs:'none', md:'inline', marginLeft:{xs:'10px'}}}}>
           <img src={Image1} width="100px" />
         </Grid>
         <Grid item xl={1} md={1} sm={2} xs={2} sx={{marginTop:'3%'}}>
