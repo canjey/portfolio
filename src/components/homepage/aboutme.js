@@ -11,21 +11,20 @@ export default function AboutMe(){
     return(
         <>
         <Grid container>
-            <Grid item xs={6} sx={{padding:'30px'}}>
+            <Grid item lg={6} md={6} xs={12} sx={{padding:'30px'}}>
                 <Typography>
                     I AM A PROFESSIONAL 
                 </Typography>
                 <Typography sx={{color:'#F900D1'}}>
-                     UI/UX DESIGNER
+                     Front End Developer
                 </Typography>
                 <Typography sx={{marginTop:'30px'}}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                Hello! My name is Carol Waithaka. I am a UI/UX Designer and a front-end developer, specialized in Website and Mobile Application Designs
+                and implementations.
                 </Typography>
-                <Button variant="contained" sx={{backgroundColor:'#F900D1', width:'150px', borderRadius:'20px', marginTop:'20%'}}>Hire Me</Button>
+                <Button variant="contained" sx={{backgroundColor:'#F900D1', width:'150px', borderRadius:'20px', marginTop:'10%'}}>Hire Me</Button>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={12} lg={6} md={6}>
                 <img src={Profile} />
             </Grid>
         </Grid>
