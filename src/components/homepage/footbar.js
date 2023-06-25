@@ -7,7 +7,7 @@ export default function Footbar() {
     <>
       <Grid>
         <Typography align="center">
-          All rights reserved Carol @2023
+          All rights reserved by Carol @2023
         </Typography>
       </Grid>
     </>

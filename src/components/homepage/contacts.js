@@ -23,22 +23,20 @@ export default function Contacts(){
     return(
         <>
         <Grid sx={myImage}>  
-        <Grid sx={{ margin: "5%",  }}>
+        <Grid sx={{}}>
           <Typography
             sx={{
-              marginTop: "30px",
-              padding: "50px",
+              // marginTop: "30px",
+              padding: "20px",
               marginLeft: "5%",
               marginRight: "15%"
-            }}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+        }}>
+            If you have any project or you need help,
+            Feel free to contact me
         </Typography>
         </Grid>
         <Grid container >
-            <Grid item xs={6} sx={{marginLeft:'50px'}}>
+            <Grid item lg={6} xl={6} xs={12} md={6}  sm={12} sx={{marginLeft:'50px', marginRight:'40px'}}>
         <TextField  fullWidth id="outlined-basic" label="Name" variant="outlined" /><br />
         <TextField fullWidth id="outlined-basic" label="Email" variant="outlined" sx={{marginTop:'10px'}}/><br />
         <TextField  fullWidth id="outlined-basic" label="Phone Number" variant="outlined" sx={{marginTop:'10px'}}/><br />
@@ -48,19 +46,32 @@ export default function Contacts(){
 
 
         <Grid>
-        <Button variant="contained" sx={{backgroundColor:'#F900D1', marginLeft:'45%', borderRadius:'20px', marginTop:'20px' }}>Send Message</Button>
+        <a href="mailto:email@example.com">
+        <Button variant="contained" sx={{backgroundColor:'#F900D1', marginLeft:'30%', borderRadius:'20px', marginTop:'20px', marginBottom:'20px' }}>Send Message</Button>
+        </a>
         </Grid>
         </Grid>
-        <Grid item xs={4} sx={{marginLeft:'10%'}}>
-                <LocationOnIcon sx={{fontSize:"100px", color:'#F3F3F3'}} />
-                <PublicIcon  sx={{fontSize:"100px"}}color="info"/>
-                <PhoneAndroidIcon sx={{fontSize:"100px"}} />
+          <Grid lg={1} xl={1} xs={4}  sm={4} md={2}>
+                <LocationOnIcon sx={{fontSize:"30px", color:'#F3F3F3'}} />
+              
+                <Typography>Nairobi, Kenya</Typography>
+                </Grid>
+                <Grid lg={2} xl={2} xs={4}  sm={4} md={2}>
+                <PublicIcon  sx={{fontSize:"30px", marginLeft:'25%', color:"#F900D1"}}/>
+                <Typography fullWidth>www.portfolio-unop.vercel.app/</Typography>
+                <Typography fullWidth>carolnjeri3235@gmail.com</Typography>
+
+
+                </Grid>
+                <Grid lg={1} xl={1} xs={4}  sm={4} md={2}>
+                <PhoneAndroidIcon sx={{fontSize:"30px", }} />
+                <Typography>0700152742</Typography>
+
+                </Grid>
 
             </Grid>
 
-
-        </Grid>
-        
+   
         </Grid>
         </>
     )

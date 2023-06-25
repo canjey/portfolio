@@ -93,7 +93,7 @@ export default function Portfolio() {
           </Grid>
         </Grid>
       </Grid>
-      <Typography variant="h3" align="center" sx={{ marginTop: "80px" }}>
+      <Typography variant="h5" align="center" sx={{ marginTop: "80px" }}>
         {" "}
         Contact Me{" "}
       </Typography>

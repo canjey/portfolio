@@ -21,7 +21,7 @@ export default function Homepage(){
         <Grid sx={{marginTop:'5%', }}>
             <Portfolio/>
         </Grid>
-        <Grid sx={{marginTop:'5%', }}>
+        <Grid sx={{}}>
             <Contact/>
         </Grid>
         <Grid sx={{marginTop:'1%', marginBottom:'1%' }}>
