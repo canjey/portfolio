@@ -12,8 +12,8 @@ import Event from "../../assets/event.png";
 
 function PortfolioCard(props) {
   return (
-    <Grid item xs={4}>
-      <Card sx={{ width: "95%" }}>
+    <Grid item xs={12} sm={12} lg={4} xl={4}>
+      <Card sx={{ width: "95%", height:'450px', marginBottom:'20px'}}>
         <CardMedia
           component="img"
           alt="green iguana"

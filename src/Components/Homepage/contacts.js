@@ -51,7 +51,7 @@ export default function Contacts(){
         </a>
         </Grid>
         </Grid>
-          <Grid lg={1} xl={1} xs={4}  sm={4} md={2}>
+          <Grid lg={1.5} xl={1} xs={4}  sm={4} md={2}>
                 <LocationOnIcon sx={{fontSize:"30px", color:'#F3F3F3'}} />              
                 <Typography>Nairobi, Kenya</Typography>
                 </Grid>

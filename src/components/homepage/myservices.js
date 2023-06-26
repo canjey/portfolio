@@ -45,8 +45,8 @@ export default function MyServices() {
               <Typography align="center">
               <img src={Interface} width="200px"  style={{marginLeft:{xs:'5%'}}}/>
               </Typography>
-              <Typography>User Interface Design</Typography>
-              <Typography>
+              <Typography sx={{marginLeft:"15%"}}>User Interface Design</Typography>
+              <Typography sx={{marginLeft:"15%"}}>
               <li>Landing pages</li>
               <li>User Flow</li>
               <li>Wireframing</li>
@@ -59,28 +59,35 @@ export default function MyServices() {
             <Typography align="center">
               <img src={Graphics} height="200px" />
               </Typography>
-              <Typography sx={{ color: "#F900D1" }}>
+              <Typography sx={{ color: "#F900D1",marginLeft:'20%' }}>
                 Graphic Design
               </Typography>
-              <Typography>
+              <Typography sx={{marginLeft:"15%"}}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industrys standard dummy
                 text ever since the 1500s,
               </Typography>
-            </Grid>
-            <Grid item xs={12} md={4} lg={4} sm={12} sx={{padding:'10px', textAlign:{xs:'center'}}}>
-            <Typography align="center">
-              <TerminalIcon fontSize="large" sx={{fontSize:'200px', color:"#BCBABA"}} />
-              </Typography>
-              <Typography >
-                Front-end Development</Typography>
-              <Typography>
+              <Typography sx={{marginLeft:"15%"}}>
               <li>HTML/CSS</li>
               <li>JavaScript</li>
               <li>WordPress</li>
               <li> React.js </li>
               <li>Node.js</li>
               
+              </Typography>
+            </Grid>
+            <Grid item xs={12} md={4} lg={4} sm={12} sx={{padding:'10px', }}>
+            <Typography align="center">
+              <TerminalIcon fontSize="large" sx={{fontSize:'200px', color:"#BCBABA"}} />
+              </Typography>
+              <Typography sx={{marginLeft:"15%"}}>
+                Front-end Development</Typography>
+                <Typography sx={{marginLeft:"15%"}}>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>WordPress</li>
+              <li> React.js </li>
+              <li>Node.js</li>
               </Typography>
             </Grid>
           </Grid>
