@@ -10,6 +10,7 @@ import Button from '@mui/material/Button';
 export default function AboutMe(){
     return(
         <>
+                <div id="aboutme"></div>
         <Grid container>
             <Grid item lg={6} md={6} xs={12} sx={{padding:'30px'}}>
                 <Typography>

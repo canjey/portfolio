@@ -20,6 +20,7 @@ export default function MyServices() {
   return (
     <>
       <Grid>
+        <div id="myservices"></div>
         <Typography variant="h4" align="center" sx={{ marginTop: "40px" }}>
           {" "}
           My Services{" "}
@@ -89,6 +90,7 @@ export default function MyServices() {
         </Grid>
 
         <Grid>
+        <div id="portfolio"></div>
         <Typography variant="h4" align="center" sx={{ marginTop: "60px" }}>
           {" "}
          Portfolio{" "}
