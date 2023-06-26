@@ -62,17 +62,16 @@ export default function MyServices() {
               <Typography sx={{ color: "#F900D1",marginLeft:'20%' }}>
                 Graphic Design
               </Typography>
-              <Typography sx={{marginLeft:"15%"}}>
+              {/* <Typography sx={{marginLeft:"15%"}}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industrys standard dummy
                 text ever since the 1500s,
-              </Typography>
+              </Typography> */}
               <Typography sx={{marginLeft:"15%"}}>
-              <li>HTML/CSS</li>
-              <li>JavaScript</li>
-              <li>WordPress</li>
-              <li> React.js </li>
-              <li>Node.js</li>
+              <li>Icon Set</li>
+              <li>Illustration Guide</li>
+              <li> Illustration Set </li>
+              <li>Motion Graphics</li>
               
               </Typography>
             </Grid>
@@ -93,7 +92,9 @@ export default function MyServices() {
           </Grid>
         </Grid>
         <Grid>
+        <a href="mailto:carolnjeri3235@gmail.com">
         <Button variant="contained" sx={{backgroundColor:'#F900D1', marginTop:'5%',width:'150px', marginLeft:'40%', borderRadius:'20px', }}>Hire Me</Button>
+          </a>
         </Grid>
 
         <Grid>

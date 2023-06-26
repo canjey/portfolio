@@ -46,7 +46,7 @@ export default function Contacts(){
 
 
         <Grid>
-        <a href="mailto:email@example.com">
+        <a href="mailto:carolnjeri3235@gmail.com">
         <Button variant="contained" sx={{backgroundColor:'#F900D1', marginLeft:'30%', borderRadius:'20px', marginTop:'20px', marginBottom:'20px' }}>Send Message</Button>
         </a>
         </Grid>
