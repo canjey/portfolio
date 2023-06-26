@@ -69,18 +69,18 @@ export default function Topbar() {
         <Button variant="text"  onClick={handleHomeClick} style={{ color: home ? "#F900D1" : "white" }}>Home</Button>
         </Link>
         </Grid>
-        <Grid item  xl={1} md={1.5} sm={3} xs={4} sx={{marginTop:'3%'}}>
+        <Grid item  xl={1.3} md={1.5} sm={3} xs={4} sx={{marginTop:'3%'}}>
         <Link href="#myservices" style={{textDecoration:'none'}}>
         <Button variant="text" onClick={handleServiceClick} style={{ color: services ? "#F900D1" : "white", width:'120px'}}>My Services</Button>
         </Link>
         </Grid>
-        <Grid item xl={1} md={1.5} sm={2} xs={3} sx={{marginTop:'3%', }}>
+        <Grid item xl={1.2} md={1.5} sm={2} xs={3} sx={{marginTop:'3%', }}>
         <Link href="#myservices" style={{textDecoration:'none'}}>
         <Button variant="text" onClick={handlePortfolioClick} style={{ color: portfolio ? "#F900D1" : "white" }}>Portfolio</Button>
         </Link>
         </Grid>
         <Grid item xl={1} md={1.5} sm={2} xs={3} sx={{marginTop:'3%'}} >
-        <Link href="#myservices" style={{textDecoration:'none'}}>
+        <Link href="#contact" style={{textDecoration:'none'}}>
         <Button variant="text" onClick={handleContactClick} style={{ color: contact ? "#F900D1" : "white" }}>Contact Me</Button>
         </Link>
         </Grid>
