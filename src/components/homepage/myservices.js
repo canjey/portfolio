@@ -59,7 +59,7 @@ export default function MyServices() {
             <Typography align="center">
               <img src={Graphics} height="200px" />
               </Typography>
-              <Typography sx={{ color: "#F900D1",marginLeft:'20%' }}>
+              <Typography sx={{ color: "#F900D1",marginLeft:'25%' }}>
                 Graphic Design
               </Typography>
               {/* <Typography sx={{marginLeft:"15%"}}>
@@ -67,7 +67,7 @@ export default function MyServices() {
                 industry. Lorem Ipsum has been the industrys standard dummy
                 text ever since the 1500s,
               </Typography> */}
-              <Typography sx={{marginLeft:"15%"}}>
+              <Typography sx={{marginLeft:"25%"}}>
               <li>Icon Set</li>
               <li>Illustration Guide</li>
               <li> Illustration Set </li>
@@ -79,9 +79,9 @@ export default function MyServices() {
             <Typography align="center">
               <TerminalIcon fontSize="large" sx={{fontSize:'200px', color:"#BCBABA"}} />
               </Typography>
-              <Typography sx={{marginLeft:"15%"}}>
+              <Typography sx={{marginLeft:"25%"}}>
                 Front-end Development</Typography>
-                <Typography sx={{marginLeft:"15%"}}>
+                <Typography sx={{marginLeft:"25%"}}>
               <li>HTML/CSS</li>
               <li>JavaScript</li>
               <li>WordPress</li>

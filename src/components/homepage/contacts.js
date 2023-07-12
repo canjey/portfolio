@@ -15,7 +15,7 @@ const myImage = {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     width: "100%",
-  //   height: "100%"
+    height: "600px"
   };
   
 
@@ -27,7 +27,7 @@ export default function Contacts(){
           <Typography
             sx={{
               // marginTop: "30px",
-              padding: "20px",
+              padding: "60px",
               marginLeft: "5%",
               marginRight: "15%"
         }}>
@@ -47,7 +47,7 @@ export default function Contacts(){
 
         <Grid>
         <a href="mailto:carolnjeri3235@gmail.com">
-        <Button variant="contained" sx={{backgroundColor:'#F900D1', marginLeft:'30%', borderRadius:'20px', marginTop:'20px', marginBottom:'20px' }}>Send Message</Button>
+        <Button variant="contained" sx={{backgroundColor:'#F900D1', marginLeft:{xs:'30%', lg:'40%'}, borderRadius:'20px', marginTop:'20px', marginBottom:'20px' }}>Send Message</Button>
         </a>
         </Grid>
         </Grid>
